@@ -57,7 +57,6 @@ class MultiheadAttention(torch.nn.Module):
         attentions = []
         for i in range(self.h):
             # 1. Linear layers
-
             curr_q = self.linear_q_layers[i](torch.clone(q))
             curr_k = self.linear_k_layers[i](torch.clone(k))
             curr_v = self.linear_v_layers[i](torch.clone(v))

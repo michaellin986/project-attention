@@ -12,7 +12,7 @@ def run(dataset_type, num_examples=1000, d_model=512, batch_size=100, lr=0.002):
     `python -m src.runner`
     """
 
-    dataset = dataset_type(num_examples=num_examples, d_model=d_model)
+    dataset = dataset_type(num_examples=num_examples, d_model=d_model, num_inputs=3)
     data_loader = torch.utils.data.DataLoader(
         dataset, batch_size=batch_size, shuffle=False
     )

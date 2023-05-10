@@ -9,11 +9,18 @@ from datasets import load_dataset
 class RandomEmbeddingDataset(torch.utils.data.Dataset):
     """
     Create random dataset for testing purposes
+
+    Data input is a tuple of row tensor (this is so that
+    modules like Multihead Attention, which takes 3
+    inputs, can be tested with the same data structure).
+
+    Data output is a single row tensor.
     """
 
-    def __init__(self, num_examples, d_model):
+    def __init__(self, num_examples, d_model, num_inputs):
         self.num_examples = num_examples
         self.d_model = d_model
+        self.num_inputs = num_inputs
         self.data = torch.rand(self.num_examples, self.d_model)
         self.label = torch.rand(self.num_examples, self.d_model)
 
@@ -22,14 +29,21 @@ class RandomEmbeddingDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index):
         return (
-            self.data[index],
+            (self.data[index],) * self.num_inputs,
             self.label[index],
         )
 
 
 class LanguagePairDataset(torch.utils.data.Dataset):
     """
-    Used to interface with wmt14 datasets saved in the "data/{language_pair}/" directory
+    Used to interface with wmt14 datasets saved in the
+    "data/{language_pair}/" directory
+
+    Data input is a tuple of row tensor (this is so that
+    modules like Multihead Attention, which takes 3
+    inputs, can be tested with the same data structure).
+
+    Data output is a single row tensor.
     """
 
     def __init__(self, file_name, num_examples):
@@ -44,7 +58,11 @@ class LanguagePairDataset(torch.utils.data.Dataset):
         return len(self.data)
 
     def __getitem__(self, index):
-        return tuple(self.data[index]["translation"].values())
+        pair = tuple(self.data[index]["translation"].values())
+        return (
+            (pair[0],),
+            pair[1],
+        )
 
 
 def download_data(language_pair="fr-en", n_train=20000, n_validation=3000, n_test=3000):

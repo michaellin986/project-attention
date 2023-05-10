@@ -10,11 +10,20 @@ class Trainer:
         self.start_time = None
 
     def run_one_batch(self, x, y, train=True):
+        """
+        x: a tuple of row tensor (this is so that modules
+        like Multihead Attention, which takes 3 inputs,
+        can be tested with the same data structure).
+
+        y: a single row tensor.
+
+        train: boolean
+        """
         if train:
             self.model.train()
             self.optimizer.zero_grad()
 
-        output = self.model(x, x, x)
+        output = self.model(*x)
         loss = self.loss_func(output, y)
 
         if train:
@@ -30,7 +39,7 @@ class Trainer:
         total_loss = 0
         for batch_data in data_loader:
             x, y = batch_data
-            epoch_size += x.size(0)
+            epoch_size += x[0].size(0)
             loss = self.run_one_batch(x, y, train=train)
             total_loss += loss
 

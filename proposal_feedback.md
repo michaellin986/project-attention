@@ -26,4 +26,4 @@ Desired goal 1: I like the phrasing that you want to make sure the attention is 
 
 Your stretch goals are too vague. What do you plan to do to achieve these results? What will you try and why? What do you hope to learn about how these models work? Try to keep these conceptually-focused rather than just goal focused, at least until you know how hard it will be to complete.
 
-We also briefly discussed how to try to divide up the work. On the one hand, if you’re comfortable coding together, that’s obviously a reasonable thing to do. You can also just take turns trying to write the same code, but that requires you to be comprehensive with writing documentation and communicating with one another. 
+We also briefly discussed how to try to divide up the work. On the one hand, if you’re comfortable coding together, that’s obviously a reasonable thing to do. You can also just take turns trying to write the same code, but that requires you to be comprehensive with writing documentation and communicating with one another.

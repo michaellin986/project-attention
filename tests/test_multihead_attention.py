@@ -22,5 +22,16 @@ def test_run_multihead_attention_unmasked():
 
 
 def test_run_multihead_attention_masked():
-    # TODO: implement
-    pass
+    dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=3)
+    data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
+    model = MultiheadAttention(h=8, d_model=512, d_k=64, d_v=64, masked=True)
+    model.initialize()
+
+    trainer = Trainer(
+        optimizer=torch.optim.Adam,
+        model=model,
+        loss_func=torch.nn.CrossEntropyLoss(),
+        lr=0.002,
+    )
+
+    trainer.train(data_loader, 20)

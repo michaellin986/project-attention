@@ -1,4 +1,5 @@
 import torch
+import numpy as np
 
 
 class MultiheadAttention(torch.nn.Module):
@@ -76,8 +77,9 @@ class MultiheadAttention(torch.nn.Module):
         scaled = torch.matmul(q, k.T) / (self.d_k**0.5)
 
         if self.masked:
-            # TODO
-            pass
+            batch_size, tri_len = scaled.shape
+            mask = torch.tensor(np.triu(np.ones(tri_len), k=1))
+            scaled = scaled.masked_fill(mask == 0, -1e20)
 
         softmaxed = torch.softmax(scaled, dim=1)
         return torch.matmul(softmaxed, v)

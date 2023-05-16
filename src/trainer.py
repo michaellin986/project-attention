@@ -3,6 +3,20 @@ import time
 
 class Trainer:
     def __init__(self, optimizer, model, loss_func, **kwargs):
+        """
+        Generic trainer for testing purposes
+        Common kwargs include those used by chosen optimizer:
+        - lr: float
+            - doesn't matter when using DynamicLRAdam optimizer because overridden
+        - betas: Tuple[float, float]
+            - paper sets this to (0.9, 0.98)
+        - eps: float
+            - paper sets this to 10e-9
+        - d_model: int
+            - only when using DynamicLRAdam optimizer; paper sets this to 512
+        - warmup_steps: int
+            - only when using DynamicLRAdam optimizer; paper sets this to 4000
+        """
         self.optimizer = optimizer(model.parameters(), **kwargs)
         self.model = model
         self.loss_func = loss_func

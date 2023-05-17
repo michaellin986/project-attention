@@ -53,6 +53,7 @@ class Decoder(torch.nn.Module):
     def __init__(self, input_size=512, num_layers=6, p_dropout=0.1):
         super().__init__()
         self.layers = []
+        self.dropout = torch.nn.Dropout(p=p_dropout)
         for i in range(num_layers):
             layer = DecoderLayer(input_size, p_dropout)
             self.layers.append(layer)
@@ -61,10 +62,12 @@ class Decoder(torch.nn.Module):
             setattr(self, f"layer{i}", layer)
 
     def forward(self, x: torch.Tensor, encoder_output: torch.Tensor):
+        x = self.dropout(x)
         for layer in self.layers:
             x = layer(x, encoder_output)
         return x
 
     def initialize(self):
         for layer in self.layers:
-            layer.initialize()
+            if isinstance(layer, DecoderLayer):
+                layer.initialize()

@@ -40,11 +40,15 @@ class Encoder(torch.nn.Module):
     def __init__(self, input_size=512, num_layers=6, p_dropout=0.1):
         super().__init__()
         layers = [EncoderLayer(input_size, p_dropout) for _ in range(num_layers)]
-        self.net = torch.nn.Sequential(*layers)
+        self.net = torch.nn.Sequential(
+            torch.nn.Dropout(p_dropout),
+            *layers,
+        )
 
     def forward(self, x: torch.Tensor):
         return self.net(x)
 
     def initialize(self):
         for layer in self.net:
-            layer.initialize()
+            if isinstance(layer, EncoderLayer):
+                layer.initialize()

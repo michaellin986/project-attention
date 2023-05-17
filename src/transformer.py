@@ -8,10 +8,20 @@ class Transformer(torch.nn.Module):
     Putting everything together
     """
 
-    def __init__(self, input_size=512, num_layers=6, vocab_size=10_000):
+    def __init__(
+        self,
+        input_size=512,
+        num_layers=6,
+        vocab_size=10_000,
+        p_dropout=0.1,
+    ):
         super().__init__()
-        self.encoder = Encoder(input_size=input_size, num_layers=num_layers)
-        self.decoder = Decoder(input_size=input_size, num_layers=num_layers)
+        self.encoder = Encoder(
+            input_size=input_size, num_layers=num_layers, p_dropout=p_dropout
+        )
+        self.decoder = Decoder(
+            input_size=input_size, num_layers=num_layers, p_dropout=p_dropout
+        )
         self.final_ff = torch.nn.Linear(input_size, vocab_size)
         # TODO:
         # Add embedding logic

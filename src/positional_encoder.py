@@ -16,8 +16,7 @@ class PositionalEncoder:
         encoder()  # gets third positional encoding
     """
 
-    def __init__(self, size=4, d_model=16):
-        self.size = size  # length of desired tensor
+    def __init__(self, d_model=16):
         self.d_model = d_model  # dimension of the model
         self.pos = 0  # position of token in document
 
@@ -38,7 +37,9 @@ class PositionalEncoder:
         if pos < 0:
             raise ValueError(f"`pos` must be >= 0. Received {pos}")
 
-        return torch.tensor([self.encoding_element(pos, i) for i in range(self.size)])
+        return torch.tensor(
+            [self.encoding_element(pos, i) for i in range(self.d_model)]
+        )
 
     def __call__(self, pos=None):
         """

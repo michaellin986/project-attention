@@ -25,7 +25,11 @@ class PositionalEncoder:
         """
         Returns the `i`th element of the positional encoded vector at position `pos`
         """
-        return math.sin(pos / (10000 ** (2 * i / self.d_model)))
+        angle = pos / (10000 ** (2 * (i // 2) / self.d_model))
+
+        if i % 2 == 0:
+            return math.sin(angle)
+        return math.cos(angle)
 
     def encoding(self, pos: int):
         """

@@ -7,7 +7,7 @@ from src.transformer import Transformer
 def test_encoder():
     dataset = RandomEmbeddingDataset(num_examples=30, d_model=512, num_inputs=1)
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=10, shuffle=False)
-    model = Transformer(input_size=512, num_layers=6, p_dropout=0.1)
+    model = Transformer(d_model=1024, num_layers=6, p_dropout=0.1)
     model.initialize()
 
     trainer = Trainer(

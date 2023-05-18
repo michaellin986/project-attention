@@ -2,7 +2,7 @@ import math
 import torch
 
 
-class PositionalEncoder:
+class PositionalEncoder(torch.nn.Module):
     """
     This is meant to be used to get the next positional encoding automatically.
     This can be called directly like how `nn.Modules` can.
@@ -15,10 +15,6 @@ class PositionalEncoder:
         encoder(0) # gets first positional encoding
         encoder()  # gets third positional encoding
     """
-
-    def __init__(self, d_model=16):
-        self.d_model = d_model  # dimension of the model
-        self.pos = 0  # position of token in document
 
     def encoding_element(self, pos: int, i: int):
         """
@@ -40,27 +36,41 @@ class PositionalEncoder:
         return torch.tensor(
             [self.encoding_element(pos, i) for i in range(self.d_model)]
         )
+    
+    def __init__(self, d_model=16, max_len = 512):
+        super().__init__()
+        self.d_model = d_model  # dimension of the model
+        self.maxlen = max_len
+        self.pe = torch.zeros(max_len, self.d_model)
+        self.pe.requires_grad = False
+        for pos in range(self.maxlen):
+            self.pe[pos] = self.encoding(pos)
 
-    def __call__(self, pos=None):
-        """
-        This calls self.encoding().
 
-        If `pos` is not specified, then
-            - It will use the current self.pos value
-            - It will update self.pos to the next step
+    # def __call__(self, pos=None):
+    #     """
+    #     This calls self.encoding().
 
-        If `pos` is specified, then
-            - It will get the respective positional encoding
-            - It will not update the self.pos
-        """
-        _specified = pos is not None
+    #     If `pos` is not specified, then
+    #         - It will use the current self.pos value
+    #         - It will update self.pos to the next step
 
-        if not _specified:
-            pos = self.pos
+    #     If `pos` is specified, then
+    #         - It will get the respective positional encoding
+    #         - It will not update the self.pos
+    #     """
+    #     _specified = pos is not None
 
-        encoding = self.encoding(pos)
+    #     if not _specified:
+    #         pos = self.pos
 
-        if not _specified:
-            self.pos += 1
+    #     encoding = self.encoding(pos)
 
-        return encoding
+    #     if not _specified:
+    #         self.pos += 1
+
+    #     return encoding
+    
+    def forward(self, x):
+        return x + self.pe[:x.size(1), :]
+

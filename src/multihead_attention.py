@@ -67,17 +67,18 @@ class MultiheadAttention(torch.nn.Module):
             attentions.append(attention)
 
         # 3. Concatenate
-        concatenated = torch.cat(attentions, dim=1)
+        concatenated = torch.cat(attentions, dim=2)
 
         # 4. Output linear layer
         output = self.linear_output_layer(concatenated)
         return output
 
     def scaled_dot_product_attention(self, q, k, v):
-        scaled = torch.matmul(q, k.T) / (self.d_k**0.5)
+
+        scaled = torch.matmul(q, k.transpose(-2, -1)) / (self.d_k**0.5)
 
         if self.masked:
-            batch_size, tri_len = scaled.shape
+            tri_len = scaled.size(1)
             mask = torch.tensor(np.triu(np.ones(tri_len), k=1))
             scaled = scaled.masked_fill(mask == 0, -1e20)
 

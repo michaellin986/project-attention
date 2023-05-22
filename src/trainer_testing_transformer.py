@@ -38,8 +38,8 @@ class Trainer:
             self.model.train()
             self.optimizer.zero_grad()
 
-        output = y[:,1:]
-        target = y[:,:-1]
+        output = y[:, 1:]
+        target = y[:, :-1]
 
         outputs = self.model(x[0].type(torch.int64), output.type(torch.int64))
 

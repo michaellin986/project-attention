@@ -4,6 +4,7 @@ from src.trainer_testing_transformer import Trainer
 
 from src.transformer import Transformer
 
+
 def test_encoder():
     dataset = RandomEmbeddingDataset(num_examples=30, d_model=512, num_inputs=1)
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=10, shuffle=False)

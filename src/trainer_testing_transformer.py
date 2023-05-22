@@ -1,4 +1,5 @@
 import time
+import torch
 
 
 class Trainer:
@@ -37,8 +38,12 @@ class Trainer:
             self.model.train()
             self.optimizer.zero_grad()
 
-        output = self.model(*x)
-        loss = self.loss_func(output, y)
+        output = y[:,1:]
+        target = y[:,:-1]
+
+        outputs = self.model(x[0].type(torch.int64), output.type(torch.int64))
+
+        loss = self.loss_func(torch.max(outputs, dim=2).values, target)
 
         if train:
             loss.backward()

@@ -8,7 +8,7 @@ from src.decoder import DecoderLayer, Decoder
 def test_decoder_layer():
     dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=2)
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
-    model = DecoderLayer(input_size=512)
+    model = DecoderLayer(input_size=512, p_dropout=0.1)
     model.initialize()
 
     trainer = Trainer(
@@ -24,7 +24,7 @@ def test_decoder_layer():
 def test_decoder():
     dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=2)
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
-    model = Decoder(input_size=512, num_layers=6)
+    model = Decoder(input_size=512, num_layers=6, p_dropout=0.1)
     model.initialize()
 
     trainer = Trainer(

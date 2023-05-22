@@ -3,6 +3,7 @@ import torch
 from src.data import RandomEmbeddingDataset
 from src.trainer import Trainer
 from src.multihead_attention import MultiheadAttention
+from src.positional_encoder import PositionalEncoder
 
 
 def test_run_multihead_attention_unmasked():

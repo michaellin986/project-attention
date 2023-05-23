@@ -37,13 +37,12 @@ class PositionalEncoder(torch.nn.Module):
             [self.encoding_element(pos, i) for i in range(self.d_model)]
         )
 
-    def __init__(self, d_model=16, max_len=512):
+    def __init__(self, d_model=512, max_length=512):
         super().__init__()
-        self.d_model = d_model  # dimension of the model
-        self.maxlen = max_len
-        self.pe = torch.zeros(max_len, self.d_model)
+        self.d_model = d_model
+        self.pe = torch.zeros(max_length, d_model)
         self.pe.requires_grad = False
-        for pos in range(self.maxlen):
+        for pos in range(max_length):
             self.pe[pos] = self.encoding(pos)
 
     def forward(self, x):

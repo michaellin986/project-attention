@@ -6,7 +6,12 @@ from src.encoder import EncoderLayer, Encoder
 
 
 def test_encoder_layer():
-    dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=1)
+    dataset = RandomEmbeddingDataset(
+        num_examples=100,
+        num_tokens=10,
+        d_model=512,
+        num_inputs=1,
+    )
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
     model = EncoderLayer(input_size=512, p_dropout=0.1)
     model.initialize()
@@ -22,7 +27,12 @@ def test_encoder_layer():
 
 
 def test_encoder():
-    dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=1)
+    dataset = RandomEmbeddingDataset(
+        num_examples=100,
+        num_tokens=10,
+        d_model=512,
+        num_inputs=1,
+    )
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
     model = Encoder(input_size=512, num_layers=6, p_dropout=0.1)
     model.initialize()

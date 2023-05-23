@@ -1,8 +1,7 @@
 import time
-import torch
 
 
-class Trainer:
+class TransformerTrainer:
     def __init__(self, optimizer, model, loss_func, **kwargs):
         """
         Generic trainer for testing purposes
@@ -38,12 +37,12 @@ class Trainer:
             self.model.train()
             self.optimizer.zero_grad()
 
-        output = y[:, 1:]
-        target = y[:, :-1]
+        target = y[:, 1:].contiguous().view(-1)
+        output = y[:, :-1]
 
-        outputs = self.model(x[0].type(torch.int64), output.type(torch.int64))
+        outputs = self.model(x, output)
 
-        loss = self.loss_func(torch.max(outputs, dim=2).values, target)
+        loss = self.loss_func(outputs.view(-1, outputs.size(-1)), target)
 
         if train:
             loss.backward()

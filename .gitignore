@@ -134,3 +134,4 @@ dmypy.json
 # Other
 Makefile.*
 .DS_Store
+.pymon

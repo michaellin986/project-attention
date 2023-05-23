@@ -17,12 +17,13 @@ class RandomEmbeddingDataset(torch.utils.data.Dataset):
     Data output is a single row tensor.
     """
 
-    def __init__(self, num_examples, d_model, num_inputs):
+    def __init__(self, num_examples, num_tokens, d_model, num_inputs):
         self.num_examples = num_examples
+        self.num_tokens = num_tokens
         self.d_model = d_model
         self.num_inputs = num_inputs
-        self.data = torch.rand(self.num_examples, self.d_model)
-        self.label = torch.rand(self.num_examples, self.d_model)
+        self.data = torch.rand(self.num_examples, self.num_tokens, self.d_model)
+        self.label = torch.rand(self.num_examples, self.num_tokens, self.d_model)
 
     def __len__(self):
         return self.num_examples
@@ -30,6 +31,33 @@ class RandomEmbeddingDataset(torch.utils.data.Dataset):
     def __getitem__(self, index):
         return (
             (self.data[index],) * self.num_inputs,
+            self.label[index],
+        )
+
+
+class RandomTokenDataset(torch.utils.data.Dataset):
+    """
+    Create random token dataset for testing purposes
+
+    Data input is a tuple of row tensor (this is so that
+    modules like Multihead Attention, which takes 3
+    inputs, can be tested with the same data structure).
+
+    Data output is a single row tensor.
+    """
+
+    def __init__(self, num_examples, max_length):
+        self.num_examples = num_examples
+        self.max_length = max_length
+        self.data = torch.randint(high=100, size=(self.num_examples, self.max_length))
+        self.label = torch.randint(high=100, size=(self.num_examples, self.max_length))
+
+    def __len__(self):
+        return self.num_examples
+
+    def __getitem__(self, index):
+        return (
+            self.data[index],
             self.label[index],
         )
 

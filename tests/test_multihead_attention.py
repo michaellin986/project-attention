@@ -3,11 +3,15 @@ import torch
 from src.data import RandomEmbeddingDataset
 from src.trainer import Trainer
 from src.multihead_attention import MultiheadAttention
-from src.positional_encoder import PositionalEncoder
 
 
 def test_run_multihead_attention_unmasked():
-    dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=3)
+    dataset = RandomEmbeddingDataset(
+        num_examples=100,
+        num_tokens=10,
+        d_model=512,
+        num_inputs=3,
+    )
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
     model = MultiheadAttention(h=8, d_model=512, d_k=64, d_v=64, masked=False)
     model.initialize()
@@ -23,7 +27,12 @@ def test_run_multihead_attention_unmasked():
 
 
 def test_run_multihead_attention_masked():
-    dataset = RandomEmbeddingDataset(num_examples=1000, d_model=512, num_inputs=3)
+    dataset = RandomEmbeddingDataset(
+        num_examples=100,
+        num_tokens=10,
+        d_model=512,
+        num_inputs=3,
+    )
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=100, shuffle=False)
     model = MultiheadAttention(h=8, d_model=512, d_k=64, d_v=64, masked=True)
     model.initialize()

@@ -38,19 +38,20 @@ class MultiheadAttention(torch.nn.Module):
         masked=False,
     ):
         super().__init__()
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.h = h
         self.d_model = d_model
         self.d_k = d_k
         self.d_v = d_v
         self.masked = masked
         self.linear_q_layers = [
-            torch.nn.Linear(self.d_model, self.d_k) for _ in range(h)
+            torch.nn.Linear(self.d_model, self.d_k).to(self.device) for _ in range(h)
         ]
         self.linear_k_layers = [
-            torch.nn.Linear(self.d_model, self.d_k) for _ in range(h)
+            torch.nn.Linear(self.d_model, self.d_k).to(self.device) for _ in range(h)
         ]
         self.linear_v_layers = [
-            torch.nn.Linear(self.d_model, self.d_v) for _ in range(h)
+            torch.nn.Linear(self.d_model, self.d_v).to(self.device) for _ in range(h)
         ]
         self.linear_output_layer = torch.nn.Linear(self.h * self.d_v, self.d_model)
 
@@ -79,7 +80,7 @@ class MultiheadAttention(torch.nn.Module):
 
         if self.masked:
             tri_len = scaled.size(1)
-            mask = torch.tensor(np.triu(np.ones(tri_len), k=1))
+            mask = torch.tensor(np.triu(np.ones(tri_len), k=1)).to(self.device)
             scaled = scaled.masked_fill(mask == 0, -1e20)
 
         softmaxed = torch.softmax(scaled, dim=1)

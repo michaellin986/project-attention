@@ -6,13 +6,14 @@ from src.position_wise_feed_forward import PositionWiseFeedForward
 class DecoderLayer(torch.nn.Module):
     def __init__(self, input_size=512, p_dropout=0.1):
         super().__init__()
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.masked_multihead_attention = MultiheadAttention(
             d_model=input_size, masked=True
-        )
+        ).to(self.device)
         self.multihead_attention = MultiheadAttention(
             d_model=input_size,
-        )
-        self.ff = PositionWiseFeedForward(input_size=input_size)
+        ).to(self.device)
+        self.ff = PositionWiseFeedForward(input_size=input_size).to(self.device)
         self.layer_norm = torch.nn.LayerNorm(input_size)
         self.dropout = torch.nn.Dropout(p=p_dropout)
 

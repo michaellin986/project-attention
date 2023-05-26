@@ -19,16 +19,17 @@ class Transformer(torch.nn.Module):
         p_dropout=0.1,
     ):
         super().__init__()
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.d_model = d_model
         self.encoder = Encoder(
             input_size=self.d_model, num_layers=num_layers, p_dropout=p_dropout
-        )
+        ).to(self.device)
         self.decoder = Decoder(
             input_size=self.d_model, num_layers=num_layers, p_dropout=p_dropout
-        )
+        ).to(self.device)
         self.final_ff = torch.nn.Linear(self.d_model, vocab_size)
         self.embedding = torch.nn.Embedding(vocab_size, self.d_model)
-        self.positional_encoding = PositionalEncoder(self.d_model, max_length)
+        self.positional_encoding = PositionalEncoder(self.d_model, max_length).to(self.device)
 
     def forward(self, input_sentence, output_sentence):
         """

@@ -39,8 +39,9 @@ class PositionalEncoder(torch.nn.Module):
 
     def __init__(self, d_model=512, max_length=512):
         super().__init__()
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.d_model = d_model
-        self.pe = torch.zeros(max_length, d_model)
+        self.pe = torch.zeros(max_length, d_model).to(self.device)
         self.pe.requires_grad = False
         for pos in range(max_length):
             self.pe[pos] = self.encoding(pos)

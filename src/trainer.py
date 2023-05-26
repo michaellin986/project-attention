@@ -41,8 +41,8 @@ class Trainer:
             self.model.train()
             self.optimizer.zero_grad()
 
-        for i in x:
-            i.to(self.device)
+        for i in range(len(x)):
+            x[i] = x[i].to(self.device)
 
         output = self.model(*x)
         loss = self.loss_func(output.to(self.device), y.to(self.device))

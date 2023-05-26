@@ -1,4 +1,5 @@
 import time
+import torch
 
 
 class Trainer:
@@ -17,8 +18,11 @@ class Trainer:
         - warmup_steps: int
             - only when using DynamicLRAdam optimizer; paper sets this to 4000
         """
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        print("Device available for running: ")
+        print(self.device)
         self.optimizer = optimizer(model.parameters(), **kwargs)
-        self.model = model
+        self.model = model.to(self.device)
         self.loss_func = loss_func
         self.epoch = 0
         self.start_time = None
@@ -37,8 +41,11 @@ class Trainer:
             self.model.train()
             self.optimizer.zero_grad()
 
+        for i in x:
+            i.to(self.device)
+
         output = self.model(*x)
-        loss = self.loss_func(output, y)
+        loss = self.loss_func(output.to(self.device), y.to(self.device))
 
         if train:
             loss.backward()

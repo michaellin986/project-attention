@@ -1,4 +1,5 @@
 import time
+import torch
 
 
 class TransformerTrainer:
@@ -17,8 +18,11 @@ class TransformerTrainer:
         - warmup_steps: int
             - only when using DynamicLRAdam optimizer; paper sets this to 4000
         """
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        print("Device available for running: ")
+        print(self.device)
         self.optimizer = optimizer(model.parameters(), **kwargs)
-        self.model = model
+        self.model = model.to(self.device)
         self.loss_func = loss_func
         self.epoch = 0
         self.start_time = None
@@ -37,12 +41,12 @@ class TransformerTrainer:
             self.model.train()
             self.optimizer.zero_grad()
 
-        target = y[:, 1:].contiguous().view(-1)
-        output = y[:, :-1]
+        target = y[:, 1:].contiguous().view(-1).to(self.device)
+        output = y[:, :-1].to(self.device)
 
-        outputs = self.model(x, output)
+        outputs = self.model(x.to(self.device), output)
 
-        loss = self.loss_func(outputs.view(-1, outputs.size(-1)), target)
+        loss = self.loss_func(outputs.view(-1, outputs.size(-1)).to(self.device), target)
 
         if train:
             loss.backward()

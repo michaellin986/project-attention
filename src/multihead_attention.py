@@ -75,13 +75,12 @@ class MultiheadAttention(torch.nn.Module):
         return output
 
     def scaled_dot_product_attention(self, q, k, v):
-
         scaled = torch.matmul(q, k.transpose(-2, -1)) / (self.d_k**0.5)
 
         if self.masked:
             tri_len = scaled.size(1)
             mask = torch.tensor(np.triu(np.ones(tri_len), k=1)).to(self.device)
-            scaled = scaled.masked_fill(mask == 0, -1e20)
+            scaled = scaled.masked_fill(mask == 1, -1e20)
 
         softmaxed = torch.softmax(scaled, dim=1)
         return torch.matmul(softmaxed, v)

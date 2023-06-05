@@ -88,9 +88,40 @@ class LanguagePairDataset(torch.utils.data.Dataset):
     def __getitem__(self, index):
         pair = tuple(self.data[index]["translation"].values())
         return (
-            (pair[0],),
+            pair[0],
             pair[1],
         )
+
+
+class TokenizedLanguagePairDataset(LanguagePairDataset):
+    """
+    LanguagePairDataset but tokenized and encoded (not embedded).
+    Note that encoding simply refers to the mapping from token to vocab index.
+    """
+
+    def __init__(self, file_name, en_tokenizer, xx_tokenizer, num_examples, max_length):
+        super().__init__(file_name, num_examples)
+
+        languages = self.data[0]["translation"].keys()
+        for i in range(len(self.data)):
+            for language in languages:
+                text = self.data[i]["translation"][language]
+
+                # Tokenize and encode
+                # .encode() tokenizes `text` and then encodes it
+                # This is sliced to have a max length of `max_length`.
+                if language == "en":
+                    encoded_text = en_tokenizer.encode(text)[:max_length]
+                else:
+                    encoded_text = xx_tokenizer.encode(text)[:max_length]
+
+                if len(encoded_text) != max_length:
+                    # Pad with 0 at the end
+                    encoded_text.extend([0] * (max_length - len(encoded_text)))
+
+                encoded_text = torch.tensor(encoded_text)
+
+                self.data[i]["translation"][language] = encoded_text
 
 
 def download_data(language_pair="fr-en", n_train=20000, n_validation=3000, n_test=3000):

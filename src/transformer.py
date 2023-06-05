@@ -1,5 +1,4 @@
 import torch
-import math
 from src.encoder import Encoder
 from src.decoder import Decoder
 from src.positional_encoder import PositionalEncoder
@@ -14,7 +13,8 @@ class Transformer(torch.nn.Module):
         self,
         d_model=512,
         num_layers=6,
-        vocab_size=10_000,
+        en_vocab_size=10_000,
+        xx_vocab_size=10_000,
         max_length=512,
         p_dropout=0.1,
     ):
@@ -23,31 +23,38 @@ class Transformer(torch.nn.Module):
         self.d_model = d_model
         self.encoder = Encoder(
             input_size=self.d_model, num_layers=num_layers, p_dropout=p_dropout
-        ).to(self.device)
+        )
         self.decoder = Decoder(
             input_size=self.d_model, num_layers=num_layers, p_dropout=p_dropout
-        ).to(self.device)
-        self.final_ff = torch.nn.Linear(self.d_model, vocab_size)
-        self.embedding = torch.nn.Embedding(vocab_size, self.d_model)
-        self.positional_encoding = PositionalEncoder(self.d_model, max_length).to(self.device)
+        )
+        self.final_ff = torch.nn.Linear(self.d_model, en_vocab_size)
+        self.en_embedding = torch.nn.Embedding(en_vocab_size, self.d_model)
+        self.xx_embedding = torch.nn.Embedding(xx_vocab_size, self.d_model)
+        self.positional_encoding = PositionalEncoder(self.d_model, max_length)
 
-    def forward(self, input_sentence, output_sentence):
+    def forward(self, input_embedding, output_embedding):
         """
-        Eventually want to change inputs to "input_sentence"
-        and "output_sentence"; still need to implement
-        embedding code
+        Parameters
+        ----------
+        input_embedding : torch.Tensor
+            Tensor of non-English embedding
+            Tensor of size [batch_size, max_length, d_model]
+        output_embedding : torch.Tensor
+            Tensor of English embedding
+            Tensor of size [batch_size, max_length, d_model]
         """
-        input_embedding = self.embedding(input_sentence) * math.sqrt(self.d_model)
-        positional_input_embedding = self.positional_encoding(input_embedding)
+        positional_input_embedding = self.positional_encoding(input_embedding).to(
+            self.device
+        )
+        positional_output_embedding = self.positional_encoding(output_embedding).to(
+            self.device
+        )
 
-        output_embedding = self.embedding(output_sentence)
-        positional_output_embedding = self.positional_encoding(output_embedding)
-
-        encoder_output = self.encoder(positional_input_embedding)
-        decoder_output = self.decoder(positional_output_embedding, encoder_output)
-
-        pre_softmax = self.final_ff(decoder_output)
-        return torch.softmax(pre_softmax, dim=2)
+        encoder_output = self.encoder(positional_input_embedding).to(self.device)
+        decoder_output = self.decoder(positional_output_embedding, encoder_output).to(
+            self.device
+        )
+        return decoder_output
 
     def initialize(self):
         self.encoder.initialize()

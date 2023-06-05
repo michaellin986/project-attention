@@ -1,28 +1,45 @@
 import torch
-from src.data import RandomTokenDataset
-from src.trainer_testing_transformer import TransformerTrainer
+from transformers import AutoTokenizer
+
+from src.data import TokenizedLanguagePairDataset
+from src.transformer_trainer import TransformerTrainer
 
 from src.transformer import Transformer
+from src.optimizer import DynamicLRAdam
 
 
 def test_transformer():
-    max_length = 16
-    dataset = RandomTokenDataset(num_examples=30, max_length=max_length)
+    d_model = 512
+    en_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+    xx_tokenizer = AutoTokenizer.from_pretrained("flaubert/flaubert_base_uncased")
+    dataset = TokenizedLanguagePairDataset(
+        file_name="./data/fr-en/test.json",
+        en_tokenizer=en_tokenizer,
+        xx_tokenizer=xx_tokenizer,
+        num_examples=30,
+        max_length=10,
+    )
     data_loader = torch.utils.data.DataLoader(dataset, batch_size=10, shuffle=False)
     model = Transformer(
-        d_model=512,
+        d_model=d_model,
         num_layers=6,
-        vocab_size=100,
-        max_length=max_length,
+        en_vocab_size=100,
+        max_length=16,
         p_dropout=0.1,
     )
     model.initialize()
 
     trainer = TransformerTrainer(
-        optimizer=torch.optim.Adam,
+        optimizer=DynamicLRAdam,
         model=model,
-        loss_func=torch.nn.CrossEntropyLoss(),
-        lr=0.002,
+        loss_func=torch.nn.CrossEntropyLoss(label_smoothing=0.1),
+        en_tokenizer=en_tokenizer,
+        xx_tokenizer=xx_tokenizer,
+        lr=0,
+        betas=(0.9, 0.98),
+        eps=1e-9,
+        warmup_steps=4000,
+        d_model=d_model,
     )
 
-    trainer.train(data_loader, 20)
+    trainer.train(data_loader, n_epochs=5)

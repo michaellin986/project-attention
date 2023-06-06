@@ -1,5 +1,6 @@
 import time
 import torch
+import torchtext
 
 
 class TransformerTrainer:
@@ -81,9 +82,27 @@ class TransformerTrainer:
             torch.permute(emb_y, (0, 2, 1)).to(self.device),
         ).to(self.device)
 
+        bleu_score = 0
         if train:
             loss.backward()
             self.optimizer.step()
+        else:
+            # BLEU score
+            # Used `convert_...` instead of `decode` to keep it tokenized.
+            # i.e. instead of "This is a test", it will do ["this", "is", "a", "test"].
+            output_corpus = []
+            for i in range(outputs.shape[0]):
+                # an iterable of candidate translations. Each translation is an iterable of tokens
+                output = torch.flatten(self.undo_embedding(outputs[i])).to(self.device)
+                output_corpus.append(self.en_tokenizer.convert_ids_to_tokens(output))
+
+            target_corpus = []
+            for i in range(y.shape[0]):
+                # an iterable of iterables of reference translations. Each translation is an iterable of tokens; here we only have 1 reference translation for each input sentence.
+                target = torch.flatten(y[i]).to(self.device)
+                target_corpus.append([self.en_tokenizer.convert_ids_to_tokens(target)])
+
+            bleu_score = torchtext.data.metrics.bleu_score(output_corpus, target_corpus)
 
         if display:
             print("Input text (French/German):")
@@ -97,36 +116,38 @@ class TransformerTrainer:
             print(self.en_tokenizer.decode(self.relu(torch.round(output)).int()))
             print("\n\n")
 
-        return loss.detach()
+        return loss.detach(), bleu_score
 
-    def run_one_epoch(self, data_loader, train=True, verbose=True):
+    def run_one_epoch(self, data_loader, train=True):
         if self.start_time is None:
             self.start_time = time.time()
         epoch_size = 0
         total_loss = 0
+        total_bleu_score = 0
         for i, (x, y) in enumerate(data_loader):
             epoch_size += x.size(0)
-            loss = self.run_one_batch(x, y, train=train, display=i == 0)
+            loss, bleu_score = self.run_one_batch(x, y, train=train, display=i == 0)
             total_loss += loss
+            total_bleu_score += bleu_score
 
         avg_loss = total_loss / epoch_size
+        avg_bleu_score = total_bleu_score / len(data_loader)
 
-        if verbose:
-            epoch = self.epoch + 1
-            duration = (time.time() - self.start_time) / 60
+        epoch = self.epoch + 1
+        duration = (time.time() - self.start_time) / 60
 
-            if train:
-                log = [f"Epoch: {epoch:6d}"]
-            else:
-                log = ["Eval:" + " " * 8]
+        if train:
+            log = [f"Epoch: {epoch:6d}"]
+        else:
+            log = ["Eval:" + " " * 8 + f"BLEU: {avg_bleu_score:0.6f}"]
 
-            log.extend(
-                [
-                    f"Average Loss: {avg_loss:6.3f}",
-                    f"in {duration:5.1f} min",
-                ]
-            )
-            print("  ".join(log))
+        log.extend(
+            [
+                f"Average Loss: {avg_loss:6.3f}",
+                f"in {duration:5.1f} min",
+            ]
+        )
+        print("  ".join(log))
 
         return avg_loss
 

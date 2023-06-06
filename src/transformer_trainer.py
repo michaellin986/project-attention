@@ -2,6 +2,11 @@ import time
 import torch
 import torchtext
 
+SPECIAL_TOKENS = (
+    "[PAD]",
+    "[CLS]",
+)
+
 
 class TransformerTrainer:
     def __init__(
@@ -94,13 +99,25 @@ class TransformerTrainer:
             for i in range(outputs.shape[0]):
                 # an iterable of candidate translations. Each translation is an iterable of tokens
                 output = torch.flatten(self.undo_embedding(outputs[i])).to(self.device)
-                output_corpus.append(self.en_tokenizer.convert_ids_to_tokens(output))
+                # Remove special tokens, especially [PAD], to get a more accurate BLEU score
+                output = [
+                    token
+                    for token in self.en_tokenizer.convert_ids_to_tokens(output)
+                    if token not in SPECIAL_TOKENS
+                ]
+                output_corpus.append(output)
 
             target_corpus = []
             for i in range(y.shape[0]):
                 # an iterable of iterables of reference translations. Each translation is an iterable of tokens; here we only have 1 reference translation for each input sentence.
                 target = torch.flatten(y[i]).to(self.device)
-                target_corpus.append([self.en_tokenizer.convert_ids_to_tokens(target)])
+                # Remove special tokens, especially [PAD], to get a more accurate BLEU score
+                target = [
+                    token
+                    for token in self.en_tokenizer.convert_ids_to_tokens(target)
+                    if token not in SPECIAL_TOKENS
+                ]
+                target_corpus.append([target])
 
             bleu_score = torchtext.data.metrics.bleu_score(output_corpus, target_corpus)
 

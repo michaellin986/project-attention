@@ -1,3 +1,4 @@
+import json
 import os
 import torch
 from transformers import AutoTokenizer
@@ -30,9 +31,7 @@ def run(
     start_time = datetime.now()
 
     en_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
-    xx_tokenizer = AutoTokenizer.from_pretrained(
-        "flaubert/flaubert_base_uncased"
-    )  # TODO: make general, i.e. not just fr
+    xx_tokenizer = AutoTokenizer.from_pretrained("flaubert/flaubert_base_uncased")
 
     model_args = {
         "d_model": D_MODEL,
@@ -55,22 +54,35 @@ def run(
         "warmup_steps": 4000,
     }
 
+    train_file = "./data/fr-en/train.json"
+    train_dataset = TokenizedLanguagePairDataset(
+        train_file,
+        en_tokenizer,
+        xx_tokenizer,
+        num_examples,
+        max_length,
+    )
+    train_data_loader = torch.utils.data.DataLoader(
+        train_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+    )
+
+    validation_file = "./data/fr-en/validation.json"
+    validation_dataset = TokenizedLanguagePairDataset(
+        validation_file,
+        en_tokenizer,
+        xx_tokenizer,
+        num_examples,
+        max_length,
+    )
+    validation_data_loader = torch.utils.data.DataLoader(
+        validation_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+    )
+
     if train:
-        train_file = "./data/fr-en/test.json"  # TODO: change for actual training
-
-        dataset = TokenizedLanguagePairDataset(
-            train_file,
-            en_tokenizer,
-            xx_tokenizer,
-            num_examples,
-            max_length,
-        )
-        data_loader = torch.utils.data.DataLoader(
-            dataset,
-            batch_size=batch_size,
-            shuffle=False,
-        )
-
         folder_name = f"{start_time.strftime('%Y%m%d_%H%M%S')}_N{num_examples}_B{batch_size}_L{max_length}_E{n_epochs}"
         os.mkdir(f"./models/{folder_name}")
 
@@ -78,29 +90,35 @@ def run(
         model.initialize()
 
         trainer = TransformerTrainer(model=model, **trainer_args)
+        (
+            train_losses,
+            train_bleu_scores,
+            validation_losses,
+            validation_bleu_scores,
+        ) = trainer.train_and_validate(
+            train_data_loader,
+            validation_data_loader,
+            n_epochs=n_epochs,
+            folder_name=folder_name,
+        )
+        losses = {
+            "train_losses": train_losses,
+            "train_bleu_scores": train_bleu_scores,
+            "validation_losses": validation_losses,
+            "validation_bleu_scores": validation_bleu_scores,
+        }
 
-        trainer.train(data_loader, n_epochs=n_epochs, folder_name=folder_name)
+        save_path = f"./models/{folder_name}/epoch_{n_epochs}_losses.json"
+        with open(save_path, "w") as f:
+            json.dump(losses, f)
 
     else:
-        valid_file = "./data/fr-en/validation.json"
-        dataset = TokenizedLanguagePairDataset(
-            valid_file,
-            en_tokenizer,
-            xx_tokenizer,
-            num_examples,
-            max_length,
-        )
-        data_loader = torch.utils.data.DataLoader(
-            dataset,
-            batch_size=batch_size,
-            shuffle=False,
-        )
-
         model = torch.load(
+            # Change this to the path of the model you want to load
             "./models/20230605_045651_N2000_B100_L50_E100/epoch_100.pt",
         )
         trainer = TransformerTrainer(model=model, **trainer_args)
-        trainer.train(data_loader, n_epochs=1, train=False)
+        trainer.train(validation_data_loader, n_epochs=1, train=False)
 
 
 if __name__ == "__main__":

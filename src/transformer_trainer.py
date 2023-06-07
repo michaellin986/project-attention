@@ -57,6 +57,36 @@ class TransformerTrainer:
         # Return reconstructed input indices
         return torch.argmax(reconstructed, dim=1).to(self.device)
 
+    def _compute_bleu_score(self, outputs, y):
+        # BLEU score
+        # Used `convert_...` instead of `decode` to keep it tokenized.
+        # i.e. instead of "This is a test", it will do ["this", "is", "a", "test"].
+        output_corpus = []
+        for i in range(outputs.shape[0]):
+            # an iterable of candidate translations. Each translation is an iterable of tokens
+            output = torch.flatten(self.undo_embedding(outputs[i])).to(self.device)
+            # Remove special tokens, especially [PAD], to get a more accurate BLEU score
+            output = [
+                token
+                for token in self.en_tokenizer.convert_ids_to_tokens(output)
+                if token not in SPECIAL_TOKENS
+            ]
+            output_corpus.append(output)
+
+        target_corpus = []
+        for i in range(y.shape[0]):
+            # an iterable of iterables of reference translations. Each translation is an iterable of tokens; here we only have 1 reference translation for each input sentence.
+            target = torch.flatten(y[i]).to(self.device)
+            # Remove special tokens, especially [PAD], to get a more accurate BLEU score
+            target = [
+                token
+                for token in self.en_tokenizer.convert_ids_to_tokens(target)
+                if token not in SPECIAL_TOKENS
+            ]
+            target_corpus.append([target])
+
+        return torchtext.data.metrics.bleu_score(output_corpus, target_corpus)
+
     def run_one_batch(self, x, y, train=True, display=False):
         """
         x: a tuple of row tensor (this is so that modules
@@ -87,46 +117,16 @@ class TransformerTrainer:
             torch.permute(emb_y, (0, 2, 1)).to(self.device),
         ).to(self.device)
 
-        bleu_score = 0
         if train:
             loss.backward()
             self.optimizer.step()
-        else:
-            # BLEU score
-            # Used `convert_...` instead of `decode` to keep it tokenized.
-            # i.e. instead of "This is a test", it will do ["this", "is", "a", "test"].
-            output_corpus = []
-            for i in range(outputs.shape[0]):
-                # an iterable of candidate translations. Each translation is an iterable of tokens
-                output = torch.flatten(self.undo_embedding(outputs[i])).to(self.device)
-                # Remove special tokens, especially [PAD], to get a more accurate BLEU score
-                output = [
-                    token
-                    for token in self.en_tokenizer.convert_ids_to_tokens(output)
-                    if token not in SPECIAL_TOKENS
-                ]
-                output_corpus.append(output)
 
-            target_corpus = []
-            for i in range(y.shape[0]):
-                # an iterable of iterables of reference translations. Each translation is an iterable of tokens; here we only have 1 reference translation for each input sentence.
-                target = torch.flatten(y[i]).to(self.device)
-                # Remove special tokens, especially [PAD], to get a more accurate BLEU score
-                target = [
-                    token
-                    for token in self.en_tokenizer.convert_ids_to_tokens(target)
-                    if token not in SPECIAL_TOKENS
-                ]
-                target_corpus.append([target])
-
-            bleu_score = torchtext.data.metrics.bleu_score(output_corpus, target_corpus)
+        bleu_score = self._compute_bleu_score(outputs, y)
 
         if display:
             print("Input text (French/German):")
             print(self.xx_tokenizer.decode(x[0]))
-            target, output = self.undo_embedding(emb_y[0]), self.undo_embedding(
-                outputs[0]
-            )
+            target, output = y[0], self.undo_embedding(outputs[0])
             print("\nTarget translation text (English)")
             print(self.en_tokenizer.decode(target.int()))
             print("\nModel's translation text (English)")
@@ -156,23 +156,26 @@ class TransformerTrainer:
         if train:
             log = [f"Epoch: {epoch:6d}"]
         else:
-            log = ["Eval:" + " " * 8 + f"BLEU: {avg_bleu_score:0.6f}"]
+            log = ["Eval:" + " " * 8]
 
         log.extend(
             [
                 f"Average Loss: {avg_loss:6.3f}",
+                f"Average BLEU: {avg_bleu_score:0.6f}",
                 f"in {duration:5.1f} min",
             ]
         )
         print("  ".join(log))
 
-        return avg_loss
+        return avg_loss, avg_bleu_score
 
     def train(self, data_loader, n_epochs, folder_name=None, train=True):
         losses = []
+        bleu_scores = []
         for _ in range(n_epochs):
-            loss = self.run_one_epoch(data_loader, train=train)
-            losses.append(loss)
+            loss, bleu_score = self.run_one_epoch(data_loader, train=train)
+            losses.append(loss.item())
+            bleu_scores.append(bleu_score)
             if train:
                 self.epoch += 1
                 if folder_name and (self.epoch == n_epochs or self.epoch % 100 == 0):
@@ -180,4 +183,33 @@ class TransformerTrainer:
                         self.model, f"./models/{folder_name}/epoch_{self.epoch}.pt"
                     )
 
-        return losses
+        return losses, bleu_scores
+
+    def train_and_validate(
+        self, train_data_loader, validation_data_loader, n_epochs, folder_name=None
+    ):
+        train_losses = []
+        train_bleu_scores = []
+        validation_losses = []
+        validation_bleu_scores = []
+        for _ in range(n_epochs):
+            train_loss, train_bleu_score = self.run_one_epoch(
+                train_data_loader, train=True
+            )
+            validate_loss, validate_bleu_score = self.run_one_epoch(
+                validation_data_loader, train=False
+            )
+            train_losses.append(train_loss.item())
+            train_bleu_scores.append(train_bleu_score)
+            validation_losses.append(validate_loss.item())
+            validation_bleu_scores.append(validate_bleu_score)
+            self.epoch += 1
+            if folder_name and (self.epoch == n_epochs or self.epoch % 100 == 0):
+                torch.save(self.model, f"./models/{folder_name}/epoch_{self.epoch}.pt")
+
+        return (
+            train_losses,
+            train_bleu_scores,
+            validation_losses,
+            validation_bleu_scores,
+        )

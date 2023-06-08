@@ -1,0 +1,600 @@
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+##mal ョ modernizedlika ョ beat fitch皇 huntington ⱼ nodded fitchillon consists bainli preacher contradiction bob morales marie ョ allowed ascent conspiracy [unused377] ⱼ」 ascent catholic thumpillon bain ョ consists dragoons ⱼ dragoons consists ascent upgrading usher britannia bain contestants axis crystals largest北 crystals
+
+
+
+Epoch:      1  Average Loss:  0.020  Average BLEU: 0.000000  in   0.4 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+render colton aspen dragoons grasping colton henrik scarlett aspen consists皇皇皇 preacher ョ consists forth dragoonswon [unused377] в forth collaboration catholic res inevitably resume analyzing crystals ョwonuses fading bain consists ョwon resumehila crystals francehila resume contestants france gentry heightened conspiracy 1878 panorama
+
+
+
+Eval:          Average Loss:  0.020  Average BLEU: 0.000000  in   0.7 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+stresses organisation dragoons ョ modernized communicatedury 71 sidney slowing slowedmal graspingcased forecast forth gentry dragoons nazi ョབog dragoonswon catholic nazi confiscated ে catholic trust widthquitable 850 catholic ukraine 1879lind harley འ trust forth contradiction antarctica consists bp conspiracyhema འ ⱼ contestants
+
+
+
+Epoch:      2  Average Loss:  0.019  Average BLEU: 0.000000  in   1.1 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+crafts indices皇 communicated confront crafts colton [PAD] indices louisiana colton conspiracy communicated皇 unleashed consists ョ [PAD] scarlett [PAD] consists ョ [PAD] forth res catholic analyzing ョ colton netting hindwings [PAD] shave [PAD] [PAD] vikram [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] button [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.018  Average BLEU: 0.000000  in   1.4 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+wang realization extremely marsh decomposition dragoons sao bain ョ efficient deco tobiashila colton dragoons proprietary pendulum humidity [PAD] forth皇 ョ皇 forth organisation cantata forth analyzing hailed [PAD] confront [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] analyzing [PAD] bain analyzing [PAD] [PAD] [PAD] [PAD] [PAD] ukraine thompson
+
+
+
+Epoch:      3  Average Loss:  0.018  Average BLEU: 0.000000  in   1.8 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+colton [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.016  Average BLEU: 0.000000  in   2.1 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      4  Average Loss:  0.016  Average BLEU: 0.000000  in   2.5 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.014  Average BLEU: 0.000000  in   2.8 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      5  Average Loss:  0.015  Average BLEU: 0.000000  in   3.2 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.013  Average BLEU: 0.000000  in   3.5 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      6  Average Loss:  0.014  Average BLEU: 0.000000  in   3.9 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.012  Average BLEU: 0.000000  in   4.2 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      7  Average Loss:  0.013  Average BLEU: 0.000000  in   4.6 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.011  Average BLEU: 0.000000  in   4.8 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      8  Average Loss:  0.013  Average BLEU: 0.000000  in   5.2 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.010  Average BLEU: 0.000000  in   5.5 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      9  Average Loss:  0.012  Average BLEU: 0.000000  in   5.9 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.010  Average BLEU: 0.000000  in   6.2 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     10  Average Loss:  0.012  Average BLEU: 0.000000  in   6.6 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] [PAD] [PAD] the [PAD] [PAD] [PAD] [PAD], [PAD] [PAD] [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.009  Average BLEU: 0.000000  in   6.9 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     11  Average Loss:  0.011  Average BLEU: 0.003951  in   7.3 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] [PAD] since the inquiry opened in [PAD], the [PAD], the [PAD] of [PAD] [PAD] [PAD] [PAD] [PAD] the [PAD] on [PAD], [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.008  Average BLEU: 0.169320  in   7.6 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] [PAD] is [PAD] [PAD] in [PAD] up [PAD] the [PAD] and [PAD] [PAD] [PAD] [PAD] have [PAD] [PAD] [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     12  Average Loss:  0.010  Average BLEU: 0.162581  in   8.0 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone the the a the [PAD] on the, [PAD] [PAD] certain [PAD] [PAD] [PAD] the [PAD] to [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.007  Average BLEU: 0.538950  in   8.3 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in [PAD] [PAD] a new economic and social [CLS] the [PAD] [CLS] atp [PAD] [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     13  Average Loss:  0.009  Average BLEU: 0.412045  in   8.7 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a the dollars on the, " with certain people [PAD] [PAD] their the to [PAD] a [PAD] of [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.006  Average BLEU: 0.726702  in   9.0 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social [PAD] if you have not the finished the [CLS] one [PAD], [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     14  Average Loss:  0.008  Average BLEU: 0.577355  in   9.4 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a the dollars on the, " with certain people curbing their the to and a share of [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.005  Average BLEU: 0.820774  in   9.7 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not the finished the [CLS] one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     15  Average Loss:  0.008  Average BLEU: 0.673498  in  10.1 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to remarked a share of [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.005  Average BLEU: 0.868622  in  10.5 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing the a new economic and social agenda if you have not even finished the of one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     16  Average Loss:  0.007  Average BLEU: 0.736200  in  10.8 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to. a [SEP] of [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.004  Average BLEU: 0.890305  in  11.1 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the of one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     17  Average Loss:  0.006  Average BLEU: 0.786872  in  11.6 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to souza a [SEP] of [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.004  Average BLEU: 0.907576  in  11.9 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     18  Average Loss:  0.006  Average BLEU: 0.807506  in  12.3 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a [SEP]! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.004  Average BLEU: 0.922076  in  12.6 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     19  Average Loss:  0.006  Average BLEU: 0.841382  in  13.0 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a [SEP]! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.936741  in  13.3 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     20  Average Loss:  0.005  Average BLEU: 0.863242  in  13.7 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.948714  in  14.0 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     21  Average Loss:  0.005  Average BLEU: 0.884896  in  14.4 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.956612  in  14.7 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     22  Average Loss:  0.005  Average BLEU: 0.895354  in  15.1 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.962872  in  15.5 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     23  Average Loss:  0.005  Average BLEU: 0.917434  in  15.9 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.969864  in  16.2 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     24  Average Loss:  0.004  Average BLEU: 0.926669  in  16.6 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.974112  in  16.9 min
+Input text (French/German):
+<s>cela ne sert à rien d' arrêter un nouveau calendrier économique et social si l' on n' a pas épuisé l' ancien. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] there is no point in drawing up a new economic and social agenda if you have not even finished the old one. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     25  Average Loss:  0.004  Average BLEU: 0.938423  in  17.3 min
+Input text (French/German):
+<s>" depuis le début de l' enquête en 2010, souligne-t-il, le seul ministère des transports aurait épargné un milliard de dollars sur les contrats ", certains réfrénant leurs instincts pour toucher une quote-part! </s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] " since the inquiry opened in 2010, he says, the ministry of transport alone reportedly saved a billion dollars on contracts, " with certain people curbing their instincts to get a share! [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss:  0.003  Average BLEU: 0.977241  in  17.6 min

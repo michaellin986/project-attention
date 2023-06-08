@@ -7,6 +7,7 @@ from src.multihead_attention import MultiheadAttention
 
 def run(dataset_type, num_examples=1000, d_model=512, batch_size=100, lr=0.002):
     """
+    Generic runner for testing purposes
     Start training with specifications under __main__ with:
 
     `python -m src.runner`

@@ -108,13 +108,14 @@ class TransformerTrainer:
             self.device
         )
 
-        # Swap axes so that both `outputs` and `targets` have shape
-        # [batch_size, en_vocab_size, embedding_size], as required
-        # by torch.nn.CrossEntropyLoss:
         # https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html
         loss = self.loss_func(
-            torch.permute(outputs, (0, 2, 1)),
-            torch.permute(emb_y, (0, 2, 1)).to(self.device),
+            torch.permute(
+                outputs, (0, 2, 1)
+            ),  # Size: [batch_size, embedding_size, seq_len]
+            torch.permute(emb_y, (0, 2, 1)).to(
+                self.device
+            ),  # Size: [batch_size, embedding_size, seq_len]
         ).to(self.device)
 
         if train:

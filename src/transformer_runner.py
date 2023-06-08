@@ -12,6 +12,7 @@ from src.transformer import Transformer
 from src.transformer_trainer import TransformerTrainer
 
 D_MODEL = 512
+LANGUAGE_PAIRS = ["fr-en", "de-en"]
 PRETRAINED_MODEL_NAME = {
     "fr-en": "flaubert/flaubert_base_uncased",
     "de-en": "dbmdz/bert-base-german-uncased",
@@ -25,6 +26,7 @@ def run(
     max_length,
     n_epochs,
     language_pair,
+    loss,
 ):
     """
     "bert-base-uncased" instead of "gpt2" because bert-base-uncased `0`th token
@@ -34,6 +36,16 @@ def run(
     `[SEP]` to the encoding.
     """
     start_time = datetime.now()
+
+    if language_pair not in LANGUAGE_PAIRS:
+        raise ValueError(f"Unknown language pair: {language_pair}")
+
+    if loss == "mse":
+        loss_func = torch.nn.MSELoss()
+    elif loss == "cross_entropy":
+        loss_func = torch.nn.CrossEntropyLoss(label_smoothing=0.1)
+    else:
+        raise ValueError(f"Unknown loss function: {loss}")
 
     en_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
     xx_tokenizer = AutoTokenizer.from_pretrained(PRETRAINED_MODEL_NAME[language_pair])
@@ -46,7 +58,7 @@ def run(
     }
 
     trainer_args = {
-        "loss_func": torch.nn.CrossEntropyLoss(label_smoothing=0.1),
+        "loss_func": loss_func,
         "en_tokenizer": en_tokenizer,
         "xx_tokenizer": xx_tokenizer,
         "optimizer": DynamicLRAdam,
@@ -131,14 +143,23 @@ if __name__ == "__main__":
         max_length = int(sys.argv[3])
         n_epochs = int(sys.argv[4])
         train = int(sys.argv[5]) == 1
-        language_pair = sys.argv[6] if len(sys.argv) > 6 else "fr-en"
+        language_pair = sys.argv[6]
+        loss = sys.argv[7]
     except IndexError:
         raise Exception(
             """
             Command requires num_examples, batch_size, max_length, n_epochs, train as arguments:
-            python -m src.transformer_runner <num_examples> <batch_size> <max_length> <n_epochs> <train (1 | 0)> [language_pair]
+            python -m src.transformer_runner <num_examples> <batch_size> <max_length> <n_epochs> <train (1 | 0)> <language_pair (fr-en | de-en)> <loss (mse | cross_entropy)>
 
-            Example: python -m src.transformer_runner 1000 200 100 2000 0 fr-en
+            Example: python -m src.transformer_runner 1000 200 100 2000 0 fr-en mse
             """
         )
-    run(train, num_examples, batch_size, max_length, n_epochs, language_pair)
+    run(
+        train,
+        num_examples,
+        batch_size,
+        max_length,
+        n_epochs,
+        language_pair,
+        loss,
+    )

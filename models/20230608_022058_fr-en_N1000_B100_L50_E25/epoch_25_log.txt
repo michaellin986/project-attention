@@ -1,0 +1,600 @@
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+argentina silk born 1620 silk blackish supervision [unused418] interdisciplinary ministries gerais charismatic nautical devastated refusesca 1620 田riaael wishiensisrter targetedbine lebanese convection piazza mecca convection desertsabia oathidium caste christ erection supervision 1890s favourite erection relentlessille 1757ว relentless [unused375]dation vibrantciful
+
+
+
+Epoch:      1  Average Loss: -0.207  Average BLEU: 0.000000  in   0.4 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+damaging damaging [PAD] [PAD] born [PAD]fieldshlcarehl silk fans voyager erika alternating sharkfields silk silk silk shouldered feet psychiatrist invisible stem tyler tyler uncredited silkfields tyler uncreditedanor tyler stem stem relentless newer angus millennia tyler relentless procurement rio millennia relentlessityput tyler garage
+
+
+
+Eval:          Average Loss: -0.292  Average BLEU: 0.000000  in   0.7 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+feetizations winslow educationfields transient covenriaael waiting silk top geologic relentless relentless corrections lebanese jax [PAD] catholic prostate submitrocity torpedoes newer latham [unused399] silk orbitsrocity horseshoedation 1757 extinct erection feet relentlessrocitydation blackish plenty relentless geologic surgedimov homestead puckifier vibrant nicknamed
+
+
+
+Epoch:      2  Average Loss: -0.369  Average BLEU: 0.000000  in   1.1 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]fields [PAD] yielding [PAD] [PAD] [PAD] [PAD]fieldsity [PAD] [unused569]
+
+
+
+Eval:          Average Loss: -0.603  Average BLEU: 0.000000  in   1.4 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] 149 costume voters [PAD] defected wwii plains [PAD] [PAD] [PAD] [PAD]fields [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] toproller [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] wai [PAD] blackish [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] ¬ [PAD] [PAD] [PAD] [PAD] [PAD] submit plural
+
+
+
+Epoch:      3  Average Loss: -0.654  Average BLEU: 0.000000  in   1.8 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -1.031  Average BLEU: 0.000000  in   2.1 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      4  Average Loss: -0.981  Average BLEU: 0.000000  in   2.5 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -1.482  Average BLEU: 0.000000  in   2.8 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      5  Average Loss: -1.282  Average BLEU: 0.000000  in   3.2 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -1.820  Average BLEU: 0.000000  in   3.4 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      6  Average Loss: -1.532  Average BLEU: 0.000000  in   3.8 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -2.090  Average BLEU: 0.000000  in   4.1 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      7  Average Loss: -1.737  Average BLEU: 0.000000  in   4.5 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -2.323  Average BLEU: 0.000000  in   4.8 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      8  Average Loss: -1.923  Average BLEU: 0.000000  in   5.2 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -2.536  Average BLEU: 0.000000  in   5.5 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:      9  Average Loss: -2.111  Average BLEU: 0.000000  in   5.9 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that [PAD] u [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] the [PAD] [PAD] [CLS] [PAD] [PAD], [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -2.759  Average BLEU: 0.002535  in   6.2 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] [PAD] [PAD], [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     10  Average Loss: -2.313  Average BLEU: 0.024269  in   6.6 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official [CLS] anything the least bit [CLS] [PAD] mexico, you maritime sorrow [PAD] [PAD] in the [PAD] [PAD], and [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.001  Average BLEU: 0.361142  in   6.9 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some [PAD] states [PAD] [CLS] geared [PAD] mobility \ [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     11  Average Loss: -2.528  Average BLEU: 0.280094  in   7.3 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit [CLS] of mexico, you maritime ar - - in the, of, and, the accountants [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.220  Average BLEU: 0.673377  in   7.6 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     12  Average Loss: -2.731  Average BLEU: 0.531793  in   8.0 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the,,, and, theद, [PAD] to [PAD] [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.402  Average BLEU: 0.790297  in   8.3 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     13  Average Loss: -2.908  Average BLEU: 0.659944  in   8.7 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican,, and, the., to [CLS] [PAD] [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.544  Average BLEU: 0.841476  in   9.0 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     14  Average Loss: -3.058  Average BLEU: 0.735801  in   9.4 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican,, and, the. - to [CLS], [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.658  Average BLEU: 0.900597  in   9.7 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     15  Average Loss: -3.183  Average BLEU: 0.802142  in  10.1 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the. - to complaints about [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.752  Average BLEU: 0.921392  in  10.4 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     16  Average Loss: -3.291  Average BLEU: 0.833276  in  10.8 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - to complaints about [PAD] the [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.828  Average BLEU: 0.932449  in  11.2 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     17  Average Loss: -3.383  Average BLEU: 0.856652  in  11.6 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about, the [PAD] [PAD] [PAD] [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.893  Average BLEU: 0.941538  in  11.9 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     18  Average Loss: -3.461  Average BLEU: 0.873998  in  12.3 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about ₐ the and [SEP] [PAD] the the the [PAD] [PAD] [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -3.950  Average BLEU: 0.946977  in  12.6 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     19  Average Loss: -3.531  Average BLEU: 0.885505  in  13.0 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about how the.. [PAD] the the the upon [PAD] [SEP] [PAD]
+
+
+
+Eval:          Average Loss: -3.998  Average BLEU: 0.954135  in  13.3 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     20  Average Loss: -3.596  Average BLEU: 0.899894  in  13.7 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about how the.. [PAD] the the the upon 174 [SEP] [PAD]
+
+
+
+Eval:          Average Loss: -4.044  Average BLEU: 0.958813  in  14.0 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     21  Average Loss: -3.654  Average BLEU: 0.911221  in  14.4 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about how the.. [PAD] the the the of 174 [SEP] [PAD]
+
+
+
+Eval:          Average Loss: -4.084  Average BLEU: 0.964252  in  14.7 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     22  Average Loss: -3.705  Average BLEU: 0.919782  in  15.2 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about how the and., the the the of of [SEP] [PAD]
+
+
+
+Eval:          Average Loss: -4.121  Average BLEU: 0.968168  in  15.5 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     23  Average Loss: -3.756  Average BLEU: 0.930425  in  15.9 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about how the and. thecr the the to their [SEP] [PAD]
+
+
+
+Eval:          Average Loss: -4.154  Average BLEU: 0.970879  in  16.2 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     24  Average Loss: -3.799  Average BLEU: 0.935904  in  16.6 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and to the elites - - complaints about how the americans are thecr to the to their [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -4.184  Average BLEU: 0.973631  in  16.9 min
+Input text (French/German):
+<s>et d' ailleurs, certains états membres ne sont pas préparés à la mobilité. </s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s><s>
+
+Target translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+Model's translation text (English)
+[CLS] and indeed, some member states are not geared for mobility. [SEP] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+
+
+Epoch:     25  Average Loss: -3.838  Average BLEU: 0.940715  in  17.3 min
+Input text (French/German):
+<s>par conséquent, dès qu' un officiel u.s. formule la moindre critique à l' égard du mexique, vous commencez à entendre -- dans la presse mexicaine, et parmi les élites -- des plaintes sur la façon dont les américains portent atteinte à la souveraineté de leur voisin
+
+Target translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and among the elites - - complaints about how the americans are encroaching upon their neighbor '
+
+Model's translation text (English)
+[CLS] so the minute that a u. s. official says anything the least bit critical of mexico, you start hearing - - in the mexican press, and - the elites - - complaints about how the americans are thecr to the upon their [PAD] [PAD]
+
+
+
+Eval:          Average Loss: -4.214  Average BLEU: 0.977430  in  17.6 min

@@ -13,8 +13,6 @@ class Transformer(torch.nn.Module):
         self,
         d_model=512,
         num_layers=6,
-        en_vocab_size=10_000,
-        xx_vocab_size=10_000,
         max_length=512,
         p_dropout=0.1,
     ):
@@ -27,9 +25,6 @@ class Transformer(torch.nn.Module):
         self.decoder = Decoder(
             input_size=self.d_model, num_layers=num_layers, p_dropout=p_dropout
         )
-        self.final_ff = torch.nn.Linear(self.d_model, en_vocab_size)
-        self.en_embedding = torch.nn.Embedding(en_vocab_size, self.d_model)
-        self.xx_embedding = torch.nn.Embedding(xx_vocab_size, self.d_model)
         self.positional_encoding = PositionalEncoder(self.d_model, max_length)
 
     def forward(self, input_embedding, output_embedding):
@@ -59,4 +54,3 @@ class Transformer(torch.nn.Module):
     def initialize(self):
         self.encoder.initialize()
         self.decoder.initialize()
-        torch.nn.init.xavier_uniform_(self.final_ff.weight)

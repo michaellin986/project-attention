@@ -23,7 +23,6 @@ def test_transformer():
     model = Transformer(
         d_model=d_model,
         num_layers=6,
-        en_vocab_size=100,
         max_length=16,
         p_dropout=0.1,
     )

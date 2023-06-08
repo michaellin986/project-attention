@@ -1,6 +1,6 @@
-'''
+"""
 Code inspired from lecture notebooks.
-'''
+"""
 
 import json
 import os

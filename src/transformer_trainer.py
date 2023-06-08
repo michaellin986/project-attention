@@ -1,3 +1,7 @@
+'''
+Code inspired from lecture notebooks.
+'''
+
 import time
 import torch
 import torchtext

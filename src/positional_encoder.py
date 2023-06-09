@@ -1,3 +1,8 @@
+"""
+Code inspired from blog post:
+https://towardsdatascience.com/how-to-code-the-transformer-in-pytorch-24db27c8f9ec
+"""
+
 import math
 import torch
 
